@@ -52,8 +52,8 @@
             bindings = <
  &trans        &trans        &trans        &trans        &trans        &trans               &trans                                                  &trans          &trans          &trans        &trans           &trans  &trans  &trans
  &trans        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK            &kp SLASH                                                  &trans          &trans          &trans        &trans           &trans  &trans  &trans
- &trans     &kp ENTER  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp PLUS            &kp MINUS  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
- &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0                               &trans                  &trans                         &kp END   &kp PAGE_DOWN   &kp PAGE_UP         &kp HOME  &trans  &trans
+ &trans     &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp PLUS            &kp MINUS  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+ &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp DOT                               &trans                  &trans                         &kp END   &kp PAGE_DOWN   &kp PAGE_UP         &kp HOME  &trans  &trans
  &trans        &trans        &trans        &trans        &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans  &trans  &trans
             >;
         };
