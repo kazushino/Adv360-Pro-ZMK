@@ -50,11 +50,11 @@
 
         layer_arrownum {
             bindings = <
- &trans         &trans        &trans        &trans        &trans        &trans               &trans                                                  &trans          &trans          &trans        &trans           &trans  &trans  &trans
- &trans         &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK            &kp SLASH                                                  &trans          &trans          &trans        &trans           &trans  &trans  &trans
- &trans  &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp PLUS            &kp MINUS  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
- &trans   &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp DOT                               &trans                  &trans                         &kp END   &kp PAGE_DOWN   &kp PAGE_UP         &kp HOME  &trans  &trans
- &trans         &trans        &trans        &trans        &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans  &trans  &trans
+ &trans         &trans        &trans        &trans        &trans        &trans               &trans                                                         &trans          &trans          &trans        &trans           &trans  &trans  &trans
+ &trans         &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK            &kp SLASH                                                         &trans          &trans          &trans        &trans           &trans  &trans  &trans
+ &trans  &kp BACKSPACE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp PLUS            &kp MINUS  &trans  &trans                  &trans  &kp BACKSPACE  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+ &trans   &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp DOT                               &trans                  &trans                                &kp END   &kp PAGE_DOWN   &kp PAGE_UP         &kp HOME  &trans  &trans
+ &trans         &trans        &trans        &trans        &trans                             &trans  &trans  &trans                  &trans         &trans  &trans                          &trans        &trans           &trans  &trans  &trans
             >;
         };
 
@@ -62,7 +62,7 @@
             bindings = <
   &none     &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3   &bt BT_SEL 4                  &none                                                                         &trans      &none              &none          &none              &none                  &none   &none
   &none        &kp TILDE    &kp SEMICOLON     &kp SLASH    &macro_braces          &none            &bootloader                                                                    &bootloader      &none    &kp RIGHT_BRACE       &kp PIPE  &kp DOUBLE_QUOTES                  &none   &none
-  &none  &kp EXCLAMATION      &kp AT_SIGN      &kp HASH       &kp DOLLAR    &kp PERCENT                  &none  &trans  &trans                  &trans  &kp BACKSPACE  &rgb_ug RGB_MEFS_CMD 5  &kp CARET      &kp AMPERSAND   &kp ASTERISK      &macro_parens  &kp RIGHT_PARENTHESIS   &none
+  &none  &kp EXCLAMATION      &kp AT_SIGN      &kp HASH       &kp DOLLAR    &kp PERCENT                  &none  &trans  &trans                  &trans         &trans  &rgb_ug RGB_MEFS_CMD 5  &kp CARET      &kp AMPERSAND   &kp ASTERISK      &macro_parens  &kp RIGHT_PARENTHESIS   &none
   &none        &kp GRAVE        &kp COLON  &kp QUESTION  &macro_brackets  &kp BACKSPACE                                 &trans                  &trans                                             &none  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp APOSTROPHE                  &none   &none
   &none            &none  &rgb_ug RGB_TOG    &bt BT_CLR       &bl BL_TOG                                &trans  &trans  &trans                  &trans  &kp RG(ENTER)             &kp RS(TAB)                    &bl BL_INC     &bl BL_DEC              &none                  &none   &none
             >;
